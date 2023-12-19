@@ -21,7 +21,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: white; 
 }
 
 .App-link {
@@ -35,4 +35,43 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+h1 {
+  color: #2ecc71;
+  text-align: center;
+  margin: 20px; 
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 60px;
+}
+
+
+
+.user-box {
+  box-sizing: border-box;
+  width: 30%; 
+  border: 3px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+  vertical-align: top;
+  transition: border 0.5s ease; 
+  height: 600px;
+}
+
+.user-box:hover {
+  border: 3px solid red;
+}
+
+.user-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.user-list li {
+  margin-bottom: 5px;
+}
+
+.user-list li strong {
+  color: #3282d3;
 }
